@@ -15,21 +15,25 @@
 html {
   background: $color-bg;
   color: $color-text;
-  font-family: $font-sans-serif;
-  font-size: 0.8125rem; /* [1] */ /* 13px */
-  line-height: 1.5; /* [1] */
+  font-family: $font-josefin-sans;
+  font-size: 0.677rem; /* [1] */ /* 8.8px */
+  line-height: 1.6363em; /* [1] */
   min-height: 100%; /* [3] */
   overflow-y: scroll; /* [2] */
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 
-  @include bp-medium {
-    font-size: 0.875em; /* 14px */
+  @include bp-small {
+    font-size: 1rem;  /* 16px */
   }
 
-  @include bp-large {
-    font-size: 0.9375em; /* 15px */
+  @include bp-xlarge {
+    font-size: 0.8125em; /* 13px */
+  }
+
+  @include bp-xlarge {
+    font-size: 0.875em; /* 14px */
   }
 
   @include bp-full {

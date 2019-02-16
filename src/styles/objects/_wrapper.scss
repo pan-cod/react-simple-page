@@ -30,6 +30,9 @@
   z-index: -2; 
   filter: contrast(1.03) brightness(1.01);
 
+  @include bp-medium {
+    transform: scale(1.21);
+  }
   @include bp-full {
     background-position: top right;
     transform: scale(1.225);

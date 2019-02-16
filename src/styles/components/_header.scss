@@ -6,9 +6,32 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    height: 3.928571em;
+    margin-top: 3.07142857em;
 }
 
 .cHeader__list {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     list-style: none;
+    text-transform: uppercase;
+    width: 90vw;
+
+    @include bp-medium {
+        letter-spacing: 2.6px;
+    }
+
+    @include bp-large {
+        letter-spacing: 2.6px;
+        width: 44.642857em;
+    }
+}
+
+.cHeader__logo {
+    transition: transform .44s ease-in-out;
+
+    &:hover {
+        transform: rotate(360deg);
+    }
 }

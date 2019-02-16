@@ -14,7 +14,7 @@ const Header = () => (
         </li>
         <li>
           <a href="./" rel="home" aria-label="home logo mountains">
-            <img src={peaks} alt="peaks logo" />
+            <img className={style.cHeader__logo} src={peaks} alt="peaks logo" />
           </a>
         </li>
         <li>

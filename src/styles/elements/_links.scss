@@ -4,7 +4,8 @@
 
 a {
   color: $color-link;
-  text-decoration: underline;
+  text-decoration: none;
+  transition: $global-transition;
 
   &:hover {
     color: $color-hover;

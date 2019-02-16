@@ -2,6 +2,12 @@
 //   #BREAKPOINTS
 //   ======================================================================== */
 
+@mixin bp-xsmall {
+  @media (min-width: $bp-xsmall) {
+    @content;
+  }
+}
+
 @mixin bp-small {
   @media (min-width: $bp-small) {
     @content;
@@ -28,6 +34,12 @@
 
 @mixin bp-full {
   @media (min-width: $bp-full) {
+    @content;
+  }
+}
+
+@mixin bp-fullhd {
+  @media (min-width: $bp-fullhd) {
     @content;
   }
 }

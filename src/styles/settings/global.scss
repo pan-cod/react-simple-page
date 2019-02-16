@@ -12,15 +12,19 @@ $global-transition: all 300ms ease-in-out !default;
 
 $font-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI',
   'Roboto', 'Helvetica Neue', 'Arial', sans-serif !default;
+$font-lobster: 'Lobster 1.3';
+$font-josefin-sans: 'Josefin Sans';
 
 /* Breakpoints
    ========================================================================== */
 
+$bp-xsmall: 320px;
 $bp-small: 480px;
 $bp-medium: 768px;
 $bp-large: 1024px;
 $bp-xlarge: 1280px;
 $bp-full: 1600px;
+$bp-fullhd: 1920px;
 
 /* Colors
    ========================================================================== */
@@ -29,7 +33,7 @@ $bp-full: 1600px;
 $color-white: #fff;
 $color-black: #000;
 $color-very-light-grey: #ccc;
-$color-light-grey: #999;
+$color-light-grey: #b7b7b7;
 $color-medium-grey: #666;
 $color-sunny: #ddbe5c;
 

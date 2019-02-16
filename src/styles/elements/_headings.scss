@@ -9,7 +9,12 @@
  */
 
 h1 {
-  font-size: 2.25rem;
+  font-size: 3.66rem;
+  font-family: $font-lobster;
+
+  @include bp-xlarge {
+    font-size: 5.14285rem;
+  }
 }
 
 h2 {

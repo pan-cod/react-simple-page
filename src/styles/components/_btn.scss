@@ -19,14 +19,15 @@
 .cBtn {
   display: inline-block; /* [1] */
   vertical-align: middle; /* [2] */
-  font: inherit; /* [3] */
   text-align: center; /* [4] */
   margin: 0; /* [4] */
   cursor: pointer; /* [5] */
-  padding: 0.5rem 1rem;
+  border: 0; /* [6] */
+  font-size: 1em;
   transition: $global-transition;
   border-radius: $global-radius;
   color: $color-link;
+  line-height: 1.28571em;
   letter-spacing: 2.8px;
   text-transform: uppercase;
 }
@@ -38,10 +39,14 @@
   background-size: 100% auto;
   background-color: $color-hover;
   background-image: $global-linear-gradient;
+  font-weight: 700;
 
   &:hover,
   &:focus {
-  background-size: 200% auto;
+    outline: 0;
+    background-size: 200% auto;
+    box-shadow: 0 0.5em 0.5em -0.4em $color-hover;
+    transform: translateY(-0.15em);
   }
 }
 
@@ -53,5 +58,5 @@
 }
 
 .cBtn__large {
-  padding: 0.75rem 1.5rem;
+  padding: 1.108rem 3.341rem;
 }

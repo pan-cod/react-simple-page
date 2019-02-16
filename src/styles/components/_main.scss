@@ -2,8 +2,11 @@
    #MAIN
    ========================================================================== */
 
-.cMain {    
+.cMain {
+    margin-top: -10em;   
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 13.214em;
+    justify-content: space-between;
 }

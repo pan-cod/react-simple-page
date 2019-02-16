@@ -5,5 +5,56 @@
 .cFooter {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
+  height: 4.454545em;
+  position: relative;
+  font-size: 0.5857142rem;
+  color: $color-light-grey;
+  padding: 0 3vw;
+
+  @include bp-large {
+    font-size: 0.7857142rem;
+    padding: 0 7.54545em;
+  }
+}
+
+.cFooter::before {
+  content: '';
+  background: $color-bg;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.cFooter__copy {
+  text-transform: uppercase;
+}
+
+.cFooter__separator {
+  margin: 0 2em;
+}
+
+.cFooter__desiner {
+  font-weight: 300;
+  letter-spacing: 1.1px;
+}
+
+.cFooter__desinerName {
+  color: $color-text;
+  font-weight: 600;
+  @include bp-medium {
+    letter-spacing: 1.1px;
+  }
+}
+
+.cFooter__link {
+  color: $color-light-grey;
+  @include bp-medium {
+    letter-spacing: 2.2px;
+  }
 }
