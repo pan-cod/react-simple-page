@@ -6,11 +6,11 @@
  * The list-inline object simply displays a list of items in one line.
  */
 
-.o-list-inline {
+.oListInline {
   list-style: none;
   margin-left: 0;
 }
 
-.o-list-inline__item {
+.oListInline__item {
   display: inline-block;
 }

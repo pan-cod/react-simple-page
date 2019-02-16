@@ -4,7 +4,7 @@
 
 /* Simple flexbox layout system */
 
-.o-layout {
+.oLayout {
   display: block;
 
   @include bp-medium {
@@ -12,36 +12,36 @@
   }
 }
 
-.o-layout__item {
+.oLayout__item {
   flex: 1;
 }
 
-.o-layout--guttered {
+.oLayoutGuttered {
   justify-content: space-between;
 
-  > .o-layout__item {
+  > .oLayout__item {
     flex: none;
   }
 }
 
-.o-layout--2 {
-  > .o-layout__item {
+.oLayout__2 {
+  > .oLayout__item {
     @include bp-medium {
       width: 49%;
     }
   }
 }
 
-.o-layout--3 {
-  > .o-layout__item {
+.oLayout__3 {
+  > .oLayout__item {
     @include bp-medium {
       width: 32%;
     }
   }
 }
 
-.o-layout--4 {
-  > .o-layout__item {
+.oLayout__4 {
+  > .oLayout__item {
     @include bp-medium {
       width: 24%;
     }

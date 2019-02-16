@@ -16,7 +16,7 @@
  * 5. Force all button-styled elements to appear clickable.
  */
 
-.c-btn {
+.cBtn {
   display: inline-block; /* [1] */
   vertical-align: middle; /* [2] */
   font: inherit; /* [3] */
@@ -31,7 +31,7 @@
 /* Style variants
    ========================================================================== */
 
-.c-btn--primary {
+.cBtn__primary {
   background-color: $color-link;
 
   &,
@@ -51,10 +51,10 @@
 /* Size variants
    ========================================================================== */
 
-.c-btn--small {
+.cBtn__small {
   padding: 0.25rem 0.5rem;
 }
 
-.c-btn--large {
+.cBtn__large {
   padding: 0.75rem 1.5rem;
 }

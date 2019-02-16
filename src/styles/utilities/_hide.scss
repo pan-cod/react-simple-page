@@ -7,7 +7,7 @@
  * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
  */
 
-.u-hidden-visually {
+.uHiddenVisually {
   @include hidden-visually();
 }
 
@@ -15,11 +15,11 @@
  * Hide visually and from screen readers.
  */
 
-.u-hidden {
+.uHidden {
   display: none !important;
 }
 
-.u-hidden\@small {
+.uHidden\@small {
   display: none;
 
   @include bp-medium {

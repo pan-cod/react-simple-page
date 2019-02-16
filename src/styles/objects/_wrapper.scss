@@ -6,11 +6,10 @@
  * Page-level constraining and wrapping elements.
  */
 
-.o-wrapper {
+.oWrapper {
   @include clearfix();
   margin-right: auto;
   margin-left: auto;
-  // max-width: 99.5%;
   width: 100%;
 }
 
