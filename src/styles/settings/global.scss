@@ -4,7 +4,7 @@
 // The global settings file contains any project-wide variables; things that
 // need to be made available to the entire codebase.
 
-$global-radius: 3px !default;
+$global-radius: 24px !default;
 $global-transition: all 300ms ease-in-out !default;
 
 /* Fonts
@@ -46,3 +46,7 @@ $color-border: $color-very-light-grey;
 
 // Fills
 $color-fill: $color-very-light-grey;
+
+// Linear gradient
+
+$global-linear-gradient: linear-gradient(47deg, rgba(255, 255, 255, 0) 0%, rgba(210, 169, 41, 0.23) 40%, rgba(194, 148, 2, 0.47) 81%, rgba(194, 148, 2, 0.58) 100%);

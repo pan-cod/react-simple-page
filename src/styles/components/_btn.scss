@@ -26,25 +26,22 @@
   padding: 0.5rem 1rem;
   transition: $global-transition;
   border-radius: $global-radius;
+  color: $color-link;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
 }
 
 /* Style variants
    ========================================================================== */
 
 .cBtn__primary {
-  background-color: $color-link;
-
-  &,
-  &:hover,
-  &:active,
-  &:focus {
-    text-decoration: none; /* [4] */
-    color: $color-white;
-  }
+  background-size: 100% auto;
+  background-color: $color-hover;
+  background-image: $global-linear-gradient;
 
   &:hover,
   &:focus {
-    background-color: $color-hover;
+  background-size: 200% auto;
   }
 }
 
