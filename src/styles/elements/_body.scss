@@ -1,0 +1,14 @@
+body:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 47.1354vh;
+    box-shadow: inset 0px 34.1354vh 14.1354vh 0px rgba(0,0,0,0.47);
+    z-index: -1;
+
+    @include bp-medium {
+        box-shadow: inset 0px 34.1354vh 34.1354vh 0px rgba(0,0,0,0.47);
+    }
+}

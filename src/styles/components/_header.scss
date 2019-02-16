@@ -2,3 +2,13 @@
    #HEADER
    ========================================================================== */
 
+.cHeader {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cHeader__list {
+    display: flex;
+    list-style: none;
+}

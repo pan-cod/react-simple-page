@@ -1,10 +1,11 @@
 import React from 'react';
 import style from '../styles/app.scss';
+import peaks from '../assets/img/peaks.png';
 
 const Header = () => (
   <header className={style.cHeader}>
     <nav>
-      <ul>
+      <ul className={style.cHeader__list}>
         <li>
           <a href="#about">About</a>
         </li>
@@ -12,8 +13,8 @@ const Header = () => (
           <a href="#offer">Offer</a>
         </li>
         <li>
-          <a href="./" rel="home" aria-label="logo mountains">
-            home
+          <a href="./" rel="home" aria-label="home logo mountains">
+            <img src={peaks} alt="peaks logo" />
           </a>
         </li>
         <li>

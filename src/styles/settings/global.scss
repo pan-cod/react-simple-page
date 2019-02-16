@@ -31,15 +31,15 @@ $color-black: #000;
 $color-very-light-grey: #ccc;
 $color-light-grey: #999;
 $color-medium-grey: #666;
-$color-dark-grey: #333;
+$color-sunny: #ddbe5c;
 
 // Text
 $color-bg: $color-black;
 $color-text: $color-white;
 
 // Links
-$color-link: $color-medium-grey;
-$color-hover: $color-light-grey;
+$color-link: $color-text;
+$color-hover: $color-sunny;
 
 // Borders
 $color-border: $color-very-light-grey;
