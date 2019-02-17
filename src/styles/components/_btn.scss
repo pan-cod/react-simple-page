@@ -20,16 +20,16 @@
   display: inline-block; /* [1] */
   vertical-align: middle; /* [2] */
   text-align: center; /* [4] */
-  margin: 0; /* [4] */
   cursor: pointer; /* [5] */
-  border: 0; /* [6] */
+  margin: 0; /* [6] */
+  border: 0; /* [7] */
+  text-transform: uppercase;
   font-size: 1em;
   transition: $global-transition;
   border-radius: $global-radius;
   color: $color-link;
   line-height: 1.28571em;
   letter-spacing: 2.8px;
-  text-transform: uppercase;
   
   @include bp-medium {
     min-width: 265px;
@@ -56,10 +56,6 @@
 
 /* Size variants
    ========================================================================== */
-
-.cBtn__small {
-  padding: 0.25rem 0.5rem;
-}
 
 .cBtn__large {
   padding: 1.108rem 3.341rem;

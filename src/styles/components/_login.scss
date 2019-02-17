@@ -1,19 +1,22 @@
 .cLogin__form {
-    height: 18em;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
+    height: 18em;
 }
 
 .cLogin__input {
+    text-align: center;
     border: 0;
     outline: 0;
     padding: 0 1px;
     height: 3em;
     border-bottom: 1px solid $color-hard-grey;
     color: $color-hard-grey;
-    text-align: center;
+    font-family: $font-josefin-sans;
+    font-size: 0.9285714em;
+    letter-spacing: 0.1em;
 
     ::-webkit-input-placeholder {
         text-align: center;

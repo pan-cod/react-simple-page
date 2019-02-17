@@ -7,34 +7,30 @@
  */
 
 .oWrapper {
-  width: 100%;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   position: relative;
   overflow: hidden;
+  width: 100%;
+  height: 100vh;
 }
 
 .oWrapper::before {
   content: '';
   background: url(../assets/img/bg_image.jpg) top center no-repeat;
   background-size: cover;
-  opacity: 0.73;
+  position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  position: absolute;
-  transform: scale(1.6);
+  opacity: 0.73;
+  transform: scale(1.12);
   z-index: -2; 
   filter: contrast(1.03) brightness(1.01);
 
-  @include bp-medium {
+  @include bp-large {
     transform: scale(1.21);
-  }
-  @include bp-full {
-    background-position: top right;
-    transform: scale(1.225);
   }
 }

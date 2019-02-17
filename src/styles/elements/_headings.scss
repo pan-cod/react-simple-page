@@ -9,21 +9,17 @@
  */
 
 h1 {
-  font-size: 3.66rem;
-  font-family: $font-lobster;
-
+  font: 3.66rem/1.1em $font-lobster;
+  
   @include bp-xlarge {
     font-size: 5.14285rem;
   }
 }
 
 h2 {
-  font-family: $font-josefin-sans;
+  font: 400 1.285714rem/1em $font-josefin-sans;
   color: $color-black;
-  font-weight: 400;
   letter-spacing: 0.1em;
-  font-size: 1.285714rem;
-  line-height: 1em;
 }
 
 h3 {

@@ -3,13 +3,14 @@
    ========================================================================== */
 
 .cFooter {
-  display: flex;
+  display: inline-flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
   width: 100%;
   height: 4.454545em;
-  position: relative;
   font-size: 0.5857142rem;
+  line-height: 1em;
   color: $color-light-grey;
   padding: 0 3vw;
 
@@ -21,9 +22,9 @@
 
 .cFooter::before {
   content: '';
+  position: absolute;
   background: $color-bg;
   opacity: 0.7;
-  position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
@@ -41,20 +42,20 @@
 
 .cFooter__desiner {
   font-weight: 300;
-  letter-spacing: 1.1px;
+  letter-spacing: 0.1em;
 }
 
 .cFooter__desinerName {
   color: $color-text;
   font-weight: 600;
   @include bp-medium {
-    letter-spacing: 1.1px;
+    letter-spacing: 0.1em;
   }
 }
 
 .cFooter__link {
   color: $color-light-grey;
   @include bp-medium {
-    letter-spacing: 2.2px;
+    letter-spacing: 0.2em;
   }
 }
