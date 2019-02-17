@@ -32,10 +32,10 @@ $bp-fullhd: 1920px;
 // Colors shouldn't be used directly but reassigned
 $color-white: #fff;
 $color-black: #000;
-$color-very-light-grey: #ccc;
 $color-light-grey: #b7b7b7;
-$color-medium-grey: #666;
+$color-hard-grey: #292d2f;
 $color-sunny: #ddbe5c;
+$color-error: #f45;
 
 // Text
 $color-bg: $color-black;
@@ -46,10 +46,7 @@ $color-link: $color-text;
 $color-hover: $color-sunny;
 
 // Borders
-$color-border: $color-very-light-grey;
-
-// Fills
-$color-fill: $color-very-light-grey;
+$color-border: $color-hard-grey;
 
 // Linear gradient
 

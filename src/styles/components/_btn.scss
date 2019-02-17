@@ -30,6 +30,10 @@
   line-height: 1.28571em;
   letter-spacing: 2.8px;
   text-transform: uppercase;
+  
+  @include bp-medium {
+    min-width: 265px;
+  }
 }
 
 /* Style variants

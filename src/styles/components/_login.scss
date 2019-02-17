@@ -1,0 +1,45 @@
+.cLogin__form {
+    height: 18em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.cLogin__input {
+    border: 0;
+    outline: 0;
+    padding: 0 1px;
+    height: 3em;
+    border-bottom: 1px solid $color-hard-grey;
+    color: $color-hard-grey;
+    text-align: center;
+
+    ::-webkit-input-placeholder {
+        text-align: center;
+    }
+    
+    &:focus::-webkit-input-placeholder {
+        text-align: left;
+    }
+    
+}
+.cLogin__input:first-child {
+    margin-top: 3.1538461em;
+}
+ 
+
+.cLogin__message {
+   color: $color-black;
+}
+
+.cLogin__wrong {
+   color: $color-error; 
+}
+
+
+::-webkit-input-placeholder {
+    text-align: center;
+  }
+  
+input:focus::-webkit-input-placeholder { text-align: left; }

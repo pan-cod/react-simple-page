@@ -18,7 +18,12 @@ h1 {
 }
 
 h2 {
-  font-size: 1.75rem;
+  font-family: $font-josefin-sans;
+  color: $color-black;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  font-size: 1.285714rem;
+  line-height: 1em;
 }
 
 h3 {

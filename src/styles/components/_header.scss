@@ -29,7 +29,8 @@
 }
 
 .cHeader__logo {
-    transition: transform .44s ease-in-out;
+    will-change: transition;
+    transition: $global-transition;
 
     &:hover {
         transform: rotate(360deg);
