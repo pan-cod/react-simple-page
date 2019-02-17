@@ -29,6 +29,8 @@
   transform: scale(1.12);
   z-index: -2; 
   filter: contrast(1.03) brightness(1.01);
+  
+  @include animation-fade-in-bg;
 
   @include bp-large {
     transform: scale(1.21);

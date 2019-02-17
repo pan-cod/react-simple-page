@@ -8,6 +8,8 @@
     width: 100%;
     height: 3.928571em;
     margin-top: 3.07142857em;
+    
+    @include animation-fade-in;
 }
 
 .cHeader__list {
