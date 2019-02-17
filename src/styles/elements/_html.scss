@@ -40,8 +40,8 @@ html {
     font-size: 1em; /* 16px */
   }
 
-  @include bp-full {
-    font-size: 1.25em; /* 19px */
+  @include bp-fullhd {
+    font-size: 1.1875em; /* 19px */
   }
 }
 
